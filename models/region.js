@@ -4,7 +4,7 @@ const { db } = require("../config/db");
 const Region = db.define(
   "Region",
   {
-    id: {
+    id: { 
       type: DataTypes.INTEGER,
       autoIncrement: true,
       primaryKey: true,
